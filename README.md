@@ -46,9 +46,9 @@
 
 | Component | Score (0-2) | Marker Notes |
 | :--- | :--- | :--- |
-| **Form (`form.partial.php`):** Form POSTs correctly with dropdown and button. | | |
-| **Database Query (`DatabaseQueries.php`):** Query is secured with a prepared statement. | | |
-| **Controller (`results.php`):** Handles POST data and fetches results from the database. | | |
+| **Form:** Form POSTs correctly with dropdown and button. | | |
+| **Database Query:** Query is secured with a prepared statement and proper order. | | |
+| **Controller:** Handles POST data and fetches results from the database. | | |
 | **Output:** Conditionally displays the results table or the "No arrivals" message correctly. | | |
 | **Subtotal:** | `/8` | |
 
@@ -58,7 +58,7 @@
 
 | Component | Score (0-2) | Marker Notes |
 | :--- | :--- | :--- |
-| **Cookie Detection:** Correctly checks `$_COOKIE` to determine the page state. | | |
+| **Cookie Detection:** Correctly checks superglobal to determine the page state. | | |
 | **Cookie Logic:** Creates and deletes the cookie correctly on subsequent page loads. | | |
 | **Output:** The correct image (`yes-cookie.png` or `no-cookie.png`) is displayed. | | |
 | **Subtotal:** | `/6` | |
