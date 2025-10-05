@@ -42,7 +42,7 @@
 
 ---
 
-### EX-03: Database (Complex Query & Form) (Total: 8 Points)
+### EX-03: Complex DB Query & Form (Total: 8 Points)
 
 | Component | Score (0-2) | Marker Notes |
 | :--- | :--- | :--- |
